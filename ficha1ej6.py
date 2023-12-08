@@ -6,3 +6,13 @@ programa que calcule el tiempo total en horas que demorará ese vehículo en lle
 necesario convertir a horas, minutos y segundos: exprese en resultado como un número real, tal cual lo haya
 obtenido del cálculo
 """
+
+# datos en km,h
+distancia = 400
+velocidad = 122
+
+# calculo de tiempo en horas
+t = distancia // velocidad
+
+# resultado
+print('El tiempo en horas del viaje es de : ', t)
