@@ -5,7 +5,7 @@ de mail para el nombre y apellido ingresado de acuerdo a las siguientes reglas:
 Componer la dirección de correo de la siguiente manera:
 <primera letra del nombre><apellido>@<dominio>
 Pero si la primera letra del nombre y la primera letra del apellido son la misma entonces utilizar:
-<nombre>.<apellido>@<dominio>
+<nombre>.<apellido>@<dominio>.
 """
 
 # Carga de datos
