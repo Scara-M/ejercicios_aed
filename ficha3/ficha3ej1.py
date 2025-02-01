@@ -8,10 +8,10 @@ formato 'dd/mm/aaaa', y muestre por separado el día, el mes y el año. Ejemplo:
 # cargar fecha por teclado
 fecha = input('Cargar fecha con el formato dd/mm/aaaa: ')
 
+
 # separar por dia - mes - año
-dd = fecha[0] + fecha[1]
-mm = fecha[3] + fecha[4]
-aaaa = fecha[6] + fecha[7] + fecha[8] + fecha[9]
+dd, mm, aaaa = fecha[0] + fecha[1], fecha[3] + fecha[4], fecha[6] + fecha[7] + fecha[8] + fecha[9]
+
 
 # Salida por pantalla
 print('Día:', dd, '- Mes:', mm, '- Año:', aaaa)

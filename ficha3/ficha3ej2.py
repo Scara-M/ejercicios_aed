@@ -8,5 +8,10 @@ flotante y muestre un mensaje con esa cantidad pero en dos formatos: en uno debe
 # carga por teclado
 importe = float(input('Ingresar cantidad de dinero: '))
 
-print('$', importe)
-print(importe, 'pesos')
+# proceso
+r1 = '$ ' + str(importe)
+r2 = str(importe) + ' pesos'
+
+# Salida por pantalla
+print(r1)
+print(r2)
