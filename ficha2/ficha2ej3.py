@@ -11,7 +11,7 @@ c = 299792.458
 m = int(input('Ingresar la masa en kg: '))
 
 # ecuacion
-e = m * c ** 2
+e = m * (c ** 2)
 
 # salida
 print('La cantidad de energía obtenida es de: ', e)

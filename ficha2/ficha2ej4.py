@@ -11,7 +11,7 @@ c = int(input('Ingresar tercer coeficiente: '))
 x = int(input('Ingresar el valor de la variable: '))
 
 # valor del polinomio en el punto x 
-polinomio = a * x ** 2 + b * x + c
+polinomio = a * (x ** 2) + b * x + c
 
 # discriminante
 discriminante = b ** 2 - 4 * a * c
