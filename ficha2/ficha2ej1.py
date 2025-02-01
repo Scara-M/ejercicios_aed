@@ -4,6 +4,7 @@ Leer dos números y calcular:
 La suma de sus cuadrados.
 El promedio de sus cubos.
 """
+
 # datos de entrada
 a = int(input('Ingresar primer número: '))
 b = int(input('Ingresar segundo número: '))
