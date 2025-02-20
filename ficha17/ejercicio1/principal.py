@@ -33,7 +33,7 @@ def main():
     r = modulo.validar_rango(1,20,'Ingrese región a analizar (1 y 20): ')
     modulo.ordenar_ascendente(temperaturas,regiones, dias)
     modulo.mostrar_vector(temperaturas,regiones,dias,r)
-    """
+    
     # temperatura muestra supero a x
     x = float(input('Ingrese un valor de la temperatura'))
     reg = modulo.validar_rango(0,3, 'Ingrese una región a analizar: ')
@@ -42,7 +42,7 @@ def main():
         print('Se encontró una temperatura que supera al valor ingresado')
     else:
         print('No se encontró una temperatura al valor ingresado')
-    """
+    
     # determinar muestras por región
     modulo.contar(temperaturas, regiones)
     
